@@ -4,6 +4,7 @@ function solution(new_id) {
 
   new_id = new_id.toLowerCase();
   new_id = new_id.replace(reg, '');
+
   new_id = sumDot(new_id);
   new_id = removeFirstAndLastDot(new_id);
   console.log(new_id);
